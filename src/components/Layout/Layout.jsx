@@ -9,19 +9,19 @@ export const Layout = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
 
-  @media (max-width: 767.98px) {
+  @media (max-width: 768px) {
     background-image: linear-gradient(180deg, transparent 48%, #12141d),
     linear-gradient(180deg, rgba(18, 20, 29, 0.62), rgba(18, 20, 29, 0.62)),
     url(${bg768});
   }
 
-  @media (min-width: 768px) and (max-width: 1279.98px) {
+  @media (min-width: 769px) and (max-width: 1280px) {
     background-image: linear-gradient(180deg, transparent 48%, #12141d),
     linear-gradient(180deg, rgba(18, 20, 29, 0.62), rgba(18, 20, 29, 0.62)),
     url(${bg1280});
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1281px) {
     background-image: linear-gradient(180deg, transparent 48%, #12141d),
     linear-gradient(180deg, rgba(18, 20, 29, 0.62), rgba(18, 20, 29, 0.62)),
     url(${bg4000});

@@ -39,7 +39,7 @@ export const projectList = [
     link: 'https://github.com/vlmakh/goit-team-project-02',
     github: 'https://vlmakh.github.io/goit-team-project-02/',
     image: filmoteka,
-    descr1: 'Team-project #2. Role: teamlead. Team: 14 students',
+    descr1: 'Team-project #2. Role: teamlead. Group: 14 students',
     descr2:
       'Adaptive layout with three breakpoints (320px, 768px, 1280px). For screen width below 320px - responsive layout. Free themoviedb.org API is used as backend. Connected libraries: axios, tui-pagination, basicLightbox',
     descr3: 'Design: Figma. Assembly: Parcel',
@@ -71,7 +71,7 @@ export const projectList = [
     link: 'https://github.com/vlmakh/goit-team-project-01',
     github: 'https://vlmakh.github.io/goit-team-project-01/',
     image: foodsta,
-    descr1: 'Team-project #1. Role: teamlead. Team: 6 students',
+    descr1: 'Team-project #1. Role: teamlead. Group: 6 students',
     descr2:
       'Adaptive layout with three breakpoints (480px, 768px, 1280px). For screen width below 480px - responsive layout. The menu is implemented with anchor links that lead to the corresponding sections of the page. Images are optimized for retina displays, also added images in webp format for faster loading. Validation is enabled in the fields of the modal window and Subscribe sections',
     descr3: 'Design: Figma. Assembly: Parcel',

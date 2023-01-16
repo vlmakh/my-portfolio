@@ -1,4 +1,3 @@
-// import { Container, Box } from 'components/Box/Box';
 import { FooterWrap, FooterCont, FooterLink } from './Footer.styled';
 
 export const Footer = () => {

@@ -11,7 +11,6 @@ import {
   NavLink,
 } from './Header.styled';
 import { Box } from 'components/Box/Box';
-// import logo from 'images/vm_logo.svg';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { Logo } from 'components/Logo/Logo';
 import { FaReact, FaHtml5, FaSass } from 'react-icons/fa';
@@ -22,10 +21,9 @@ export const Header = () => {
     <HeaderWrap>
       <HeaderCont>
         <HeaderLogo href="/#">
-          {/* <img src={logo} alt="logo" width="100" /> */}
-
           <Logo fill="red" />
         </HeaderLogo>
+
         <Box>
           <HeaderName>Vlad Makhnenko</HeaderName>
           <Box display="flex">

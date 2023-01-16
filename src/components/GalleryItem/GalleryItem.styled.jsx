@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const Item = styled.li`
   padding: ${p => p.theme.space[3]}px;
-  /* background-color: ${p => p.theme.colors.bcgMain}; */
   box-shadow: ${p => p.theme.shadows.project};
   background-color: transparent;
   backdrop-filter: blur(8px);

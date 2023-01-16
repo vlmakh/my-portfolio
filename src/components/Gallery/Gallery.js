@@ -1,4 +1,3 @@
-// import { Container } from 'components/Box/Box';
 import { GalleryCont, List } from './Gallery.styled';
 import { GalleryItem } from 'components/GalleryItem/GalleryItem';
 import { projectList } from 'data/projects';

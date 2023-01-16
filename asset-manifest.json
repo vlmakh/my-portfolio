@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.ff04f97a.css",
+    "main.js": "/my-portfolio/static/js/main.0e6cd7ff.js",
+    "static/media/bg-4000.jpg": "/my-portfolio/static/media/bg-4000.226f4a225223f4bb6fb7.jpg",
+    "static/media/bg-1280.jpg": "/my-portfolio/static/media/bg-1280.3ce7c093b0f20d189ab2.jpg",
+    "static/media/bg-768.jpg": "/my-portfolio/static/media/bg-768.22135c94c4b98ff63e67.jpg",
+    "static/media/movieteka.jpg": "/my-portfolio/static/media/movieteka.041078afd6746518e3f5.jpg",
+    "static/media/mynotes.jpg": "/my-portfolio/static/media/mynotes.2df1bc257c56c7a40f21.jpg",
+    "static/media/filmoteka.jpg": "/my-portfolio/static/media/filmoteka.af8317919b6aee80f218.jpg",
+    "static/media/foodsta.jpg": "/my-portfolio/static/media/foodsta.062b8ff9b0119d06588d.jpg",
+    "static/media/barbershop.jpg": "/my-portfolio/static/media/barbershop.cefaec2aa909fa225f47.jpg",
+    "static/media/vm_logo.svg": "/my-portfolio/static/media/vm_logo.b99d6aec24749ad70cc7cbdd64db851d.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.ff04f97a.css.map": "/my-portfolio/static/css/main.ff04f97a.css.map",
+    "main.0e6cd7ff.js.map": "/my-portfolio/static/js/main.0e6cd7ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff04f97a.css",
+    "static/js/main.0e6cd7ff.js"
+  ]
+}

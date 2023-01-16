@@ -38,6 +38,7 @@ export const Header = () => {
             </LogoDiv>
           </Box>
         </Box>
+
         <Nav>
           <NavItem>
             <NavLink
@@ -55,18 +56,19 @@ export const Header = () => {
             </NavLink>
           </NavItem>
         </Nav>
+
         <NavMobile>
           <NavItem>
             <NavLink
               href="https://www.linkedin.com/in/vlad-makhnenko/"
               aria-label="Linkedin"
             >
-              <BsLinkedin />
+              <BsLinkedin size="24" />
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="https://github.com/vlmakh" aria-label="Github">
-              <BsGithub />
+              <BsGithub size="24" />
             </NavLink>
           </NavItem>
         </NavMobile>

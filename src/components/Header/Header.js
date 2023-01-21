@@ -41,6 +41,7 @@ export const Header = () => {
           <NavItem>
             <NavLink
               href="https://www.linkedin.com/in/vlad-makhnenko/"
+              target="blank"
               aria-label="Linkedin"
             >
               <BsLinkedin />
@@ -48,7 +49,11 @@ export const Header = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="https://github.com/vlmakh" aria-label="Github">
+            <NavLink
+              href="https://github.com/vlmakh"
+              target="blank"
+              aria-label="Github"
+            >
               <BsGithub />
               Github
             </NavLink>
@@ -59,13 +64,18 @@ export const Header = () => {
           <NavItem>
             <NavLink
               href="https://www.linkedin.com/in/vlad-makhnenko/"
+              target="blank"
               aria-label="Linkedin"
             >
               <BsLinkedin size="24" />
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="https://github.com/vlmakh" aria-label="Github">
+            <NavLink
+              href="https://github.com/vlmakh"
+              target="blank"
+              aria-label="Github"
+            >
               <BsGithub size="24" />
             </NavLink>
           </NavItem>

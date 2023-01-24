@@ -36,6 +36,7 @@ export const HeaderLogo = styled.a`
 
   :hover {
     color: ${p => p.theme.colors.accent};
+    text-shadow: ${p => p.theme.shadows.link};
   }
 `;
 
@@ -52,7 +53,7 @@ export const HeaderName = styled.h1`
 `;
 
 export const HeaderPos = styled.p`
-  color: ${p => p.theme.colors.textMain};  
+  color: ${p => p.theme.colors.textMain};
 `;
 
 export const Nav = styled.ul`
@@ -96,6 +97,5 @@ export const NavLink = styled.a`
   :hover {
     /* color: ${p => p.theme.colors.accent}; */
     text-shadow: ${p => p.theme.shadows.link};
-   
   }
 `;

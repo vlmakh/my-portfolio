@@ -12,16 +12,17 @@ import {
 } from './Header.styled';
 import { Box } from 'components/Box/Box';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
-import { Logo } from 'components/Logo/Logo';
+// import { Logo } from 'components/Logo/Logo';
 import { FaReact, FaHtml5, FaSass } from 'react-icons/fa';
 import { SiJavascript, SiRedux, SiWebpack } from 'react-icons/si';
+import logo from 'images/vm.png';
 
 export const Header = () => {
   return (
     <HeaderWrap>
       <HeaderCont>
         <HeaderLogo href="/#">
-          <Logo fill="red" />
+          <img src={logo} alt="logo" width="100" />
         </HeaderLogo>
 
         <Box>

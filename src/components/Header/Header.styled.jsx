@@ -94,7 +94,6 @@ export const NavLink = styled.a`
   transition: text-shadow 300ms ease-in;
 
   :hover {
-    /* color: ${p => p.theme.colors.accent}; */
     text-shadow: ${p => p.theme.shadows.link};
   }
 `;

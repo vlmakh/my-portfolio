@@ -32,11 +32,10 @@ export const LogoDiv = styled.div`
 export const HeaderLogo = styled.a`
   color: white;
 
-  transition: color 300ms ease-in;
+  transition: filter 300ms ease-in;
 
   :hover {
-    color: ${p => p.theme.colors.accent};
-    text-shadow: ${p => p.theme.shadows.link};
+    filter: drop-shadow(0 0 20px #2e5cff);
   }
 `;
 

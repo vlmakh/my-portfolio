@@ -12,7 +12,12 @@ import {
 export const GalleryItem = ({ project }) => {
   return (
     <Item>
-      <ProjectImg src={project.image} alt={project.name} width="320" />
+      <ProjectImg
+        src={project.image}
+        alt={project.name}
+        width="320"
+        height="210"
+      />
 
       <Description>
         <NameDiv>

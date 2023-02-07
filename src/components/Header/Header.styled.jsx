@@ -14,7 +14,7 @@ export const HeaderWrap = styled.header`
 export const HeaderCont = styled(Container)`
   display: flex;
   align-items: center;
-  gap: ${p => p.theme.space[3]}px;
+  gap: ${p => p.theme.space[4]}px;
 `;
 
 export const LogoDiv = styled.div`

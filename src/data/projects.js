@@ -21,7 +21,7 @@ export const projectList = [
     name: 'My notes',
     tech: <FaReact size="24" />,
     link: 'https://thunderous-dodol-52f7aa.netlify.app/',
-    github: 'https://github.com/vlmakh/my-todo-list-react',
+    github: 'https://github.com/vlmakh/my-notes-react',
     image: mynotes,
     descr1: 'Own project. Simple app for private notes',
     descr2:

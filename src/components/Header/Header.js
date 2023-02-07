@@ -13,7 +13,7 @@ import {
 import { Box } from 'components/Box/Box';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { Logo } from 'components/Logo/Logo';
-import { FaReact, FaHtml5, FaSass } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaSass, FaNodeJs } from 'react-icons/fa';
 import { SiJavascript, SiRedux, SiWebpack } from 'react-icons/si';
 
 export const Header = () => {
@@ -30,7 +30,8 @@ export const Header = () => {
             <HeaderPos>full-stack developer</HeaderPos>
             <LogoDiv>
               <FaReact size="20" />
-              <SiRedux size="20" /> <SiWebpack size="20" />
+              <SiRedux size="20" /> <FaNodeJs size="20" />
+              <SiWebpack size="20" />
               <FaHtml5 size="20" /> <FaSass size="20" />
               <SiJavascript size="20" />
             </LogoDiv>

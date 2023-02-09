@@ -28,6 +28,11 @@ export const GalleryItem = ({ project }) => {
           <GithubLink href={project.github} target="blank">
             github code
           </GithubLink>
+          {project.github2 && (
+            <GithubLink href={project.github2} target="blank">
+              github code
+            </GithubLink>
+          )}
         </NameDiv>
 
         <Text>{project.descr1}</Text>

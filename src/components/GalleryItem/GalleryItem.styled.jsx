@@ -36,7 +36,7 @@ export const Item = styled.li`
 
 export const ProjectImg = styled.img`
   width: 320px;
-  
+
   @media (max-width: 360px) {
     max-width: 320px;
   }
@@ -65,8 +65,13 @@ export const Description = styled.div`
 
 export const NameDiv = styled.div`
   display: flex;
-  align-items: center;
+  align-items: center;  
   gap: ${p => p.theme.space[4]}px;
+
+  @media (max-width: 1279.98px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `;
 
 export const NameLink = styled.a`

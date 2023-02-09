@@ -26,7 +26,7 @@ export const projectList = [
         <SiMongodb size="24" />
       </>
     ),
-    link: 'https://thunderous-dodol-52f7aa.netlify.app/',
+    link: 'https://vlmakh.github.io/my-notes-react/',
     github: 'https://github.com/vlmakh/my-notes-react',
     github2: 'https://github.com/vlmakh/my-notes-nodejs',
     image: mynotes,

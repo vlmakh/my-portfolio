@@ -20,7 +20,7 @@ export const Header = () => {
   return (
     <HeaderWrap>
       <HeaderCont>
-        <HeaderLogo href="/#">
+        <HeaderLogo href="#">
           <Logo />
         </HeaderLogo>
 

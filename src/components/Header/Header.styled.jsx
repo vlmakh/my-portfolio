@@ -1,25 +1,32 @@
 import styled from '@emotion/styled';
-import { Container } from 'components/Container/Container';
 
 export const HeaderWrap = styled.header`
+display: flex;
+  align-items: center;
+  gap: ${p => p.theme.space[4]}px;
+
+
   position: fixed;
   width: 100%;
   border-bottom: 1px solid lightgrey;
   z-index: 100;
   background-color: transparent;
-  box-shadow: ${p => p.theme.shadows.inner};
   backdrop-filter: blur(8px);
-`;
 
-export const HeaderCont = styled(Container)`
-  display: flex;
-  align-items: center;
-  gap: ${p => p.theme.space[4]}px;
+  @media (max-width: 1279.98px) {
+    padding-left: ${p => p.theme.space[4]}px;
+    padding-right: ${p => p.theme.space[4]}px;
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: ${p => p.theme.space[5]}px;
+    padding-right: ${p => p.theme.space[5]}px;
+  }
 `;
 
 export const LogoDiv = styled.div`
   display: flex;
-  align-items: center;
+  align-items: center;  
   gap: ${p => p.theme.space[3]}px;
   color: ${p => p.theme.colors.textMain};
   margin-left: ${p => p.theme.space[3]}px;

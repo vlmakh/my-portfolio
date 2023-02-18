@@ -13,7 +13,7 @@ export const projectList = [
     image: movieteka,
     descr1: 'Own project. Website for searching movies and actors',
     descr2:
-      'Adaptive layout with three breakpoints (480px, 768px, 1280px). Free themoviedb.org API is used as backend. Added libraries: emotions, styled-system, date-fns, react-loader-spinner, axios, react-slick, slick-carousel, react-paginate, i18next. Favorites for Library and Photoalbum are persisted using localStorage',
+      'Adaptive layout with three breakpoints (480px, 768px, 1280px). Free themoviedb.org API is used as backend. Added libraries: emotions, styled-system, date-fns, react-loader-spinner, axios, react-slick, slick-carousel, react-paginate, i18next. Favorites in Library and Photoalbum are persisted using localStorage',
     descr3: 'Design: own. Assembly: Create React App',
   },
   {

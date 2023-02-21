@@ -60,7 +60,7 @@ export const projectList = [
   },
   {
     id: nanoid(4),
-    name: 'Barbershop',
+    name: 'BarberShop',
     tech: (
       <>
         <FaHtml5 size="24" /> <FaSass size="24" /> <SiJavascript size="24" />
@@ -76,7 +76,7 @@ export const projectList = [
   },
   {
     id: nanoid(4),
-    name: 'Foodsta',
+    name: 'FoodSta',
     tech: (
       <>
         <FaHtml5 size="24" /> <FaSass size="24" /> <SiJavascript size="24" />
@@ -92,7 +92,7 @@ export const projectList = [
   },
   {
     id: nanoid(4),
-    name: 'Webstudio',
+    name: 'WebStudio',
     tech: (
       <>
         <FaHtml5 size="24" /> <FaSass size="24" /> <SiJavascript size="24" />

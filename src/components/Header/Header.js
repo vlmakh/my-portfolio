@@ -27,11 +27,11 @@ export const Header = () => {
         <Box display="flex" mt={3}>
           <HeaderPos>full-stack developer</HeaderPos>
           <LogoDiv>
+            <FaHtml5 size="20" /> <FaSass size="20" />
+            <SiJavascript size="20" />
             <FaReact size="20" />
             <SiRedux size="20" /> <FaNodeJs size="20" />
             <SiWebpack size="20" />
-            <FaHtml5 size="20" /> <FaSass size="20" />
-            <SiJavascript size="20" />
           </LogoDiv>
         </Box>
       </Box>

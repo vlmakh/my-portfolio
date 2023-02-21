@@ -1,7 +1,14 @@
 import { FaReact, FaHtml5, FaSass, FaNodeJs } from 'react-icons/fa';
 import { SiJavascript, SiMongodb } from 'react-icons/si';
 import { nanoid } from 'nanoid';
-import { foodsta, movieteka, barbershop, filmoteka, mynotes } from 'images';
+import {
+  foodsta,
+  movieteka,
+  barbershop,
+  filmoteka,
+  mynotes,
+  webstudio,
+} from 'images';
 
 export const projectList = [
   {
@@ -9,7 +16,7 @@ export const projectList = [
     name: 'My movies',
     tech: <FaReact size="24" />,
     link: 'https://vlmakh.github.io/my-movies/',
-    github: 'https://github.com/vlmakh/my-movies',
+    github: 'https://github.com/vlmakh/my-movies/',
     image: movieteka,
     descr1: 'Own project. Website for searching movies and actors',
     descr2:
@@ -27,13 +34,13 @@ export const projectList = [
       </>
     ),
     link: 'https://vlmakh.github.io/my-notes-react/',
-    github: 'https://github.com/vlmakh/my-notes-react',
-    github2: 'https://github.com/vlmakh/my-notes-nodejs',
+    github: 'https://github.com/vlmakh/my-notes-react/',
+    github2: 'https://github.com/vlmakh/my-notes-nodejs/',
     image: mynotes,
     descr1: 'Own project. Simple app for private notes',
     descr2:
       'Implemented user registration to access only personal data. Implemented autosave of current data online to the database. Application is written using React hooks. Attached libraries: emotions, styled-system, react-icons, nanoid, framer-motion, react-colorful, react-masonry-css, formik, yup',
-    descr3: 'Design: own. Frontend: React. Backend: Node.js. Database: MongoDB',
+    descr3: 'Design: own. Frontend: React, backend: Node.js, database: MongoDB',
   },
   {
     id: nanoid(4),
@@ -43,7 +50,7 @@ export const projectList = [
         <FaHtml5 size="24" /> <FaSass size="24" /> <SiJavascript size="24" />
       </>
     ),
-    link: 'https://github.com/vlmakh/goit-team-project-02',
+    link: 'https://github.com/vlmakh/goit-team-project-02/',
     github: 'https://vlmakh.github.io/goit-team-project-02/',
     image: filmoteka,
     descr1: 'Team-project #2. Role: teamlead. Group: 14 students',
@@ -60,7 +67,7 @@ export const projectList = [
       </>
     ),
     link: 'https://vlmakh.github.io/goit-barbershop/',
-    github: 'https://github.com/vlmakh/goit-barbershop',
+    github: 'https://github.com/vlmakh/goit-barbershop/',
     image: barbershop,
     descr1: 'Project for own practice',
     descr2:
@@ -75,12 +82,28 @@ export const projectList = [
         <FaHtml5 size="24" /> <FaSass size="24" /> <SiJavascript size="24" />
       </>
     ),
-    link: 'https://github.com/vlmakh/goit-team-project-01',
+    link: 'https://github.com/vlmakh/goit-team-project-01/',
     github: 'https://vlmakh.github.io/goit-team-project-01/',
     image: foodsta,
     descr1: 'Team-project #1. Role: teamlead. Group: 6 students',
     descr2:
       'Adaptive layout with three breakpoints (480px, 768px, 1280px). For screen width below 480px - responsive layout. The menu is implemented with anchor links that lead to the corresponding sections of the page. Images are optimized for retina displays, also added images in webp format for faster loading. Validation is enabled in the fields of the modal window and Subscribe sections',
     descr3: 'Design: Figma. Assembly: Parcel',
+  },
+  {
+    id: nanoid(4),
+    name: 'Webstudio',
+    tech: (
+      <>
+        <FaHtml5 size="24" /> <FaSass size="24" /> <SiJavascript size="24" />
+      </>
+    ),
+    link: 'https://vlmakh.github.io/goit-markup-hw-08/',
+    github: 'https://github.com/vlmakh/goit-markup-hw-08/',
+    image: webstudio,
+    descr1: 'Practical markup task',
+    descr2:
+      'Adaptive layout with three breakpoints (480px, 768px, 1200px). For screen width below 480px - responsive layout. The menu is implemented with anchor links that lead to the corresponding sections of the page. Images are optimized for retina displays, also added images in webp format for faster loading',
+    descr3: 'Design: Figma',
   },
 ];

@@ -1,10 +1,9 @@
 import styled from '@emotion/styled';
 
 export const HeaderWrap = styled.header`
-display: flex;
+  display: flex;
   align-items: center;
   gap: ${p => p.theme.space[4]}px;
-
 
   position: fixed;
   width: 100%;
@@ -26,7 +25,7 @@ display: flex;
 
 export const LogoDiv = styled.div`
   display: flex;
-  align-items: center;  
+  align-items: center;
   gap: ${p => p.theme.space[3]}px;
   color: ${p => p.theme.colors.textMain};
   margin-left: ${p => p.theme.space[3]}px;

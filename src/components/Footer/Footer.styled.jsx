@@ -6,7 +6,8 @@ export const FooterWrap = styled.footer`
   color: ${p => p.theme.colors.textMain};
   width: 100%;
   border-top: 1px solid lightgrey;  
-  background-color: ${p => p.theme.colors.bcgLayout};
+  background-color: transparent;
+  backdrop-filter: blur(2px);
 `;
 
 export const FooterCont = styled(Container)`

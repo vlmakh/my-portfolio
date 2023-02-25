@@ -50,8 +50,8 @@ export const projectList = [
         <FaHtml5 size="24" /> <FaSass size="24" /> <SiJavascript size="24" />
       </>
     ),
-    link: 'https://github.com/vlmakh/goit-team-project-02/',
-    github: 'https://vlmakh.github.io/goit-team-project-02/',
+    link: 'https://vlmakh.github.io/goit-team-project-02/',
+    github: 'https://github.com/vlmakh/goit-team-project-02/',
     image: filmoteka,
     descr1: 'Team-project #2: website. Role: teamlead. Group: 14 students',
     descr2:
@@ -82,8 +82,8 @@ export const projectList = [
         <FaHtml5 size="24" /> <FaSass size="24" /> <SiJavascript size="24" />
       </>
     ),
-    link: 'https://github.com/vlmakh/goit-team-project-01/',
-    github: 'https://vlmakh.github.io/goit-team-project-01/',
+    link: 'https://vlmakh.github.io/goit-team-project-01/',
+    github: 'https://github.com/vlmakh/goit-team-project-01/',
     image: foodsta,
     descr1: 'Team-project #1: website. Role: teamlead. Group: 6 students',
     descr2:

@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaSass, FaNodeJs } from 'react-icons/fa';
-import { SiJavascript, SiMongodb } from 'react-icons/si';
+import { SiJavascript, SiMongodb, SiTypescript } from 'react-icons/si';
 import { nanoid } from 'nanoid';
 import {
   foodsta,
@@ -14,7 +14,12 @@ export const projectList = [
   {
     id: nanoid(4),
     name: 'My movies',
-    tech: <FaReact size="24" />,
+    tech: (
+      <>
+        <FaReact size="24" />
+        <SiTypescript size="24" />{' '}
+      </>
+    ),
     link: 'https://vlmakh.github.io/my-movies/',
     github: 'https://github.com/vlmakh/my-movies/',
     image: movieteka,

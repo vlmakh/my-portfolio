@@ -13,7 +13,12 @@ import { Box } from 'components/Box/Box';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { Logo } from 'components/Logo/Logo';
 import { FaReact, FaHtml5, FaSass, FaNodeJs } from 'react-icons/fa';
-import { SiJavascript, SiRedux, SiTypescript } from 'react-icons/si';
+import {
+  SiJavascript,
+  SiRedux,
+  SiTypescript,
+  SiNextdotjs,
+} from 'react-icons/si';
 
 export const Header = () => {
   return (
@@ -30,7 +35,7 @@ export const Header = () => {
             <FaHtml5 size="20" /> <FaSass size="20" />
             <SiJavascript size="20" />
             <SiTypescript size="20" />
-            <FaReact size="20" />
+            <FaReact size="20" /> <SiNextdotjs size="20" />
             <SiRedux size="20" /> <FaNodeJs size="20" />
           </LogoDiv>
         </Box>

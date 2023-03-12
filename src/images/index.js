@@ -4,6 +4,7 @@ export { default as movieteka } from './projects/movieteka.jpg';
 export { default as barbershop } from './projects/barbershop.jpg';
 export { default as mynotes } from './projects/mynotes.jpg';
 export { default as webstudio } from './projects/webstudio.jpg';
+export { default as taranova } from './projects/taranova.jpg';
 
 export { default as bg2560 } from './bg/bg-2560.jpg';
 export { default as bg1280 } from './bg/bg-1280.jpg';

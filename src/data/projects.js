@@ -1,5 +1,10 @@
 import { FaReact, FaHtml5, FaSass, FaNodeJs } from 'react-icons/fa';
-import { SiJavascript, SiMongodb, SiTypescript } from 'react-icons/si';
+import {
+  SiJavascript,
+  SiMongodb,
+  SiTypescript,
+  SiNextdotjs,
+} from 'react-icons/si';
 import { nanoid } from 'nanoid';
 import {
   foodsta,
@@ -8,9 +13,25 @@ import {
   filmoteka,
   mynotes,
   webstudio,
+  taranova,
 } from 'images';
 
 export const projectList = [
+  {
+    id: nanoid(4),
+    name: 'Personal page',
+    tech: (
+      <>
+        <SiNextdotjs size="24" />
+      </>
+    ),
+    link: 'https://yuliya-taranova.vercel.app/',
+    github: 'https://github.com/vlmakh/yuliya-taranova',
+    image: taranova,
+    descr1: 'Freelance project: personal SPA for fitness trainer',
+    descr2: 'Adaptive layout. Using of react-animation-on-scroll',
+    descr3: 'Design: customer. Assembly: Next.js',
+  },
   {
     id: nanoid(4),
     name: 'My movies',

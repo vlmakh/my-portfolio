@@ -19,7 +19,7 @@ import {
 export const projectList = [
   {
     id: nanoid(4),
-    name: 'Personal page',
+    name: 'Personal website',
     tech: (
       <>
         <SiNextdotjs size="24" />
@@ -28,9 +28,9 @@ export const projectList = [
     link: 'https://yuliya-taranova.vercel.app/',
     github: 'https://github.com/vlmakh/yuliya-taranova',
     image: taranova,
-    descr1: 'Freelance project: personal SPA for fitness trainer',
+    descr1: 'Freelance project: personal website for fitness trainer',
     descr2: 'Adaptive layout. Using of react-animation-on-scroll',
-    descr3: 'Design: customer. Assembly: Next.js',
+    descr3: 'Design: customer. Assembly: Create Next App',
   },
   {
     id: nanoid(4),
@@ -46,7 +46,7 @@ export const projectList = [
     image: movieteka,
     descr1: 'Own project: website for searching movies and actors',
     descr2:
-      'Adaptive layout with three breakpoints (480px, 768px, 1280px). Free themoviedb.org API is used as backend. Added libraries: emotions, styled-system, date-fns, react-loader-spinner, axios, react-slick, slick-carousel, react-paginate, i18next. Favorites in Library and Photoalbum are persisted using localStorage',
+      'Adaptive layout with three breakpoints (480px, 768px, 1280px). Free themoviedb.org API is used as backend. Used libraries: emotions, styled-system, date-fns, react-loader-spinner, axios, react-slick, slick-carousel, react-paginate, i18next. Favorites in Library and Photoalbum are persisted using localStorage',
     descr3: 'Design: own. Assembly: Create React App',
   },
   {
@@ -65,7 +65,7 @@ export const projectList = [
     image: mynotes,
     descr1: 'Own project: application for private notes',
     descr2:
-      'Implemented user registration to access only personal data. Implemented autosave of current data online to the database. Application is written using React hooks. Attached libraries: emotions, styled-system, react-icons, nanoid, framer-motion, react-colorful, react-masonry-css, formik, yup',
+      'Implemented user registration to access only personal data. Implemented autosave of current data online to the database. Application is written using React hooks. Used libraries: emotions, styled-system, react-icons, nanoid, framer-motion, react-colorful, react-masonry-css, formik, yup',
     descr3: 'Design: own. Frontend: React, backend: Node.js, database: MongoDB',
   },
   {
@@ -81,7 +81,7 @@ export const projectList = [
     image: filmoteka,
     descr1: 'Team-project #2: website. Role: teamlead. Group: 14 students',
     descr2:
-      'Adaptive layout with three breakpoints (320px, 768px, 1280px). For screen width below 320px - responsive layout. Free themoviedb.org API is used as backend. Connected libraries: axios, tui-pagination, basicLightbox',
+      'Adaptive layout with three breakpoints (320px, 768px, 1280px). For screen width below 320px - responsive layout. Free themoviedb.org API is used as backend. Used libraries: axios, tui-pagination, basicLightbox',
     descr3: 'Design: Figma. Assembly: Parcel',
   },
   {
